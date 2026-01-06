@@ -3,7 +3,7 @@
     {
       "name": "MT Daun",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_daun.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT H2C",
@@ -13,12 +13,12 @@
     {
       "name": "MT H2C Wasd",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_h2c_wasd.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Axis Wasd",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_axis_wasd.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Yume",
@@ -28,12 +28,12 @@
     {
       "name": "MT Yume Wasd",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_yume_wasd.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Luna",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_luna.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Sulawesi",
@@ -73,7 +73,7 @@
     {
       "name": "MT Age Sline",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_age_sline.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Aetheria C2 (Dontol)",
@@ -83,22 +83,22 @@
     {
       "name": "MT Aetheria C2 (Pro)",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_aetheria_jalur_pro_coil_2.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Aetheria CVIP",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_aetheria_coil_vip.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Astralyn",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_astralyn.json",
-      "locked": flase
+      "locked": false
     },
     {
       "name": "MT Astralyn C2",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_astralyn_coil_2.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Bjirlah (Normal)",
@@ -108,7 +108,7 @@
     {
       "name": "MT Bjirlah (Wasd)",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_bjirlah_wasd.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Date",
@@ -133,7 +133,7 @@
     {
       "name": "MT Gemi (Wasd)",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_gemi_jalur_wasd.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Granite",
@@ -153,7 +153,7 @@
     {
       "name": "MT Outline (Mode Serius)",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_outline.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Pagi",
@@ -178,7 +178,7 @@
     {
       "name": "MT Serrat (Jalur 2)",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_serrat_jalur_2.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Vegas",
@@ -188,7 +188,7 @@
     {
       "name": "MT Velora",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_velora.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Vexyria",
@@ -208,22 +208,22 @@
     {
       "name": "MT Yahayuk (Jalur 2)",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_yahayuk_jalur_2.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Yahayuk (Jalur 3)",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_yahayuk_jalur_3.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Yahayuk CVIP",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_yahayuk_coil_vip.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Yahayuk R6",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_yahayuk_r6.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Yakuja",
@@ -243,7 +243,7 @@
     {
       "name": "MT Yntkts (Pro)",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_yntkts_pro.json",
-      "locked": true
+      "locked": false
     }
   ]
 }
