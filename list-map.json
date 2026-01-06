@@ -11,6 +11,11 @@
       "locked": false
     },
     {
+      "name": "MT SPACE X (WASD)",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/refs/heads/main/Mount%20Space.json",
+      "locked": false
+    },
+    {
       "name": "MT HTS (WASD)",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/refs/heads/main/MOUNT_HTS.json",
       "locked": false
