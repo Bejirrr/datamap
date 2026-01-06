@@ -11,6 +11,11 @@
       "locked": false
     },
     {
+      "name": "MT HTS (WASD)",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/refs/heads/main/MOUNT_HTS.json",
+      "locked": false
+    },
+    {
       "name": "MT H2C Wasd",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_h2c_wasd.json",
       "locked": true
