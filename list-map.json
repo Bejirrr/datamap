@@ -21,6 +21,11 @@
       "locked": false
     },
     {
+      "name": "MT Celestial",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/refs/heads/main/Mount_Celestial.json",
+      "locked": false
+    },
+    {
       "name": "MT H2C Wasd",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_h2c_wasd.json",
       "locked": true
