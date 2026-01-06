@@ -3,7 +3,7 @@
     {
       "name": "MT Daun",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_daun.json",
-      "locked": false
+      "locked": true
     },
     {
       "name": "MT H2C",
