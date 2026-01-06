@@ -201,11 +201,6 @@
       "locked": true
     },
     {
-      "name": "MT Velora TEST",
-      "url": "https://raw.githubusercontent.com/Bejirrr/BACKUP-DATA-MAP/refs/heads/main/file-large/merge_3957.json",
-      "locked": false
-    },
-    {
       "name": "MT Vexyria",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_vexyria.json",
       "locked": false
