@@ -21,6 +21,11 @@
       "locked": false
     },
     {
+      "name": "MT 666",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/refs/heads/main/Mount666.json",
+      "locked": false
+    },
+    {
       "name": "MT Celestial",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/refs/heads/main/Mount_Celestial.json",
       "locked": false
