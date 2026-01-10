@@ -274,6 +274,11 @@
       "name": "MT Yntkts (Pro)",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_yntkts_pro.json",
       "locked": true
+    },
+    {
+      "name": "test",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/CP1.json",
+      "locked": true
     }
   ]
 }
