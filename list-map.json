@@ -279,6 +279,11 @@
       "name": "test1",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/CP1.json",
       "locked": true
+    },
+    {
+      "name": "test2",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/CP1.json",
+      "locked": true
     }
   ]
 }
