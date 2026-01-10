@@ -313,6 +313,9 @@
             <button class="btn btn-primary" onclick="showAddModal()">
                 <span>➕</span> Tambah Map Baru
             </button>
+            <button class="btn btn-primary" onclick="downloadJSON()">
+                <span>⬇️</span> Download JSON
+            </button>
         </div>
 
         <div class="content">
@@ -346,7 +349,16 @@
 
     <script>
         let mapsData = { maps: [] };
-        const API_URL = '/api/update-map'; // Sesuaikan dengan endpoint Vercel Anda
+        const API_URL = '/api/update-map'; // Endpoint Vercel
+        
+        // Alternatif: Direct GitHub API (perlu token)
+        const GITHUB_CONFIG = {
+            owner: 'Bejirrr',
+            repo: 'datamap',
+            path: 'list-map.json',
+            branch: 'main',
+            token: '' // Isi dengan GitHub Personal Access Token Anda
+        };
 
         async function loadData() {
             try {
@@ -447,25 +459,104 @@
             btn.disabled = true;
 
             try {
-                const response = await fetch(API_URL, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify(mapsData)
-                });
-
-                if (response.ok) {
-                    showNotification('Data berhasil disimpan ke GitHub!', 'success');
+                // Coba pakai API Vercel dulu
+                if (API_URL) {
+                    await saveViaVercel();
+                } 
+                // Alternatif: langsung ke GitHub jika token tersedia
+                else if (GITHUB_CONFIG.token) {
+                    await saveViaGitHub();
                 } else {
-                    throw new Error('Gagal menyimpan data');
+                    throw new Error('Tidak ada konfigurasi untuk menyimpan. Silakan setup API endpoint atau GitHub token.');
                 }
             } catch (error) {
+                console.error('Save error:', error);
                 showNotification('Gagal menyimpan: ' + error.message, 'error');
+                
+                // Tampilkan opsi download sebagai backup
+                setTimeout(() => {
+                    if (confirm('Gagal menyimpan ke server. Ingin download JSON sebagai backup?')) {
+                        downloadJSON();
+                    }
+                }, 1000);
             } finally {
                 btn.innerHTML = originalText;
                 btn.disabled = false;
             }
+        }
+
+        async function saveViaVercel() {
+            const response = await fetch(API_URL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(mapsData)
+            });
+
+            const result = await response.json();
+
+            if (!response.ok) {
+                throw new Error(result.error || result.details || 'Gagal menyimpan via Vercel');
+            }
+            
+            showNotification('Data berhasil disimpan ke GitHub via Vercel!', 'success');
+        }
+
+        async function saveViaGitHub() {
+            // Get current file SHA
+            const getUrl = `https://api.github.com/repos/${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}/contents/${GITHUB_CONFIG.path}`;
+            const getResponse = await fetch(getUrl, {
+                headers: {
+                    'Authorization': `token ${GITHUB_CONFIG.token}`,
+                    'Accept': 'application/vnd.github.v3+json'
+                }
+            });
+
+            if (!getResponse.ok) {
+                throw new Error('Gagal mendapatkan informasi file dari GitHub');
+            }
+
+            const fileData = await getResponse.json();
+            const sha = fileData.sha;
+
+            // Update file
+            const content = btoa(unescape(encodeURIComponent(JSON.stringify(mapsData, null, 2))));
+            const updateResponse = await fetch(getUrl, {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `token ${GITHUB_CONFIG.token}`,
+                    'Accept': 'application/vnd.github.v3+json',
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    message: 'Update map list',
+                    content: content,
+                    sha: sha,
+                    branch: GITHUB_CONFIG.branch
+                })
+            });
+
+            if (!updateResponse.ok) {
+                const errorData = await updateResponse.json();
+                throw new Error(errorData.message || 'Gagal update ke GitHub');
+            }
+
+            showNotification('Data berhasil disimpan langsung ke GitHub!', 'success');
+        }
+
+        function downloadJSON() {
+            const dataStr = JSON.stringify(mapsData, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'list-map.json';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+            showNotification('JSON berhasil didownload!', 'success');
         }
 
         function showNotification(message, type) {
