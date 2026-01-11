@@ -217,8 +217,8 @@
     },
     {
       "name": "MT Velora",
-      "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_velora.json",
-      "locked": true
+      "url": "https://raw.githubusercontent.com/imamabdurrahmannn/autowiwok/refs/heads/master/Velora.json",
+      "locked": false
     },
     {
       "name": "MT Vexyria",
