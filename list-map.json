@@ -279,6 +279,11 @@
       "name": "MT Moonlight",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Moonlight.json",
       "locked": false
+    },
+    {
+      "name": "MT NetizenV3",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_NetizenV3.json",
+      "locked": false
     }
   ]
 }
