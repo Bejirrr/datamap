@@ -274,6 +274,11 @@
       "name": "MT Yntkts (Pro)",
       "url": "https://raw.githubusercontent.com/SyhrlmyZID/data-map/refs/heads/main/mount_yntkts_pro.json",
       "locked": true
+    },
+    {
+      "name": "MT Moonlight",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Moonlight.json",
+      "locked": false
     }
   ]
 }
