@@ -289,6 +289,11 @@
       "name": "MT Clase",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Clase.json",
       "locked": false
+    },
+    {
+      "name": "MT Elystra",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Elystra.json",
+      "locked": false
     }
   ]
 }
