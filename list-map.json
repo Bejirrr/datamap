@@ -59,6 +59,11 @@
       "name": "MT Philocalist",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Philocalist.json",
       "locked": false
+    },
+    {
+      "name": "MT Frostlane",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Ftostlane.json",
+      "locked": false
     }
   ]
 }
