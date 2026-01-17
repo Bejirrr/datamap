@@ -299,6 +299,11 @@
       "name": "MT Wasabi",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Wasabi.json",
       "locked": false
+    },
+    {
+      "name": "MT Philocalist",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Philocalist.json",
+      "locked": false
     }
   ]
 }
