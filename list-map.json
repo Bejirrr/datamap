@@ -114,6 +114,11 @@
       "name": "MT Yayakin WASD",
       "url": "https://rullzsyhub.web.id/json/mount_yayakin_wasd.json",
       "locked": false
+    },
+    {
+      "name": "TESTING",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/merge_4574.json",
+      "locked": true
     }
   ]
 }
