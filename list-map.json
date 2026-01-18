@@ -3,7 +3,7 @@
     {
       "name": "MT HTS (WASD)",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/refs/heads/main/MOUNT_HTS.json",
-      "locked": false
+      "locked": true
     },
     {
       "name": "MT Ayriene",
