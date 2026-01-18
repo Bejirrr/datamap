@@ -74,6 +74,46 @@
       "name": "MT Nautica",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Nautica.json",
       "locked": false
+    },
+    {
+      "name": "MT Aetheria WASD",
+      "url": "https://rullzsyhub.web.id/json/mount_aetheria_c2_wasd.json",
+      "locked": false
+    },
+    {
+      "name": "MT Age",
+      "url": "https://rullzsyhub.web.id/json/mount_age.json",
+      "locked": false
+    },
+    {
+      "name": "MT Axis WASD",
+      "url": "https://rullzsyhub.web.id/json/mount_axis_wasd.json",
+      "locked": false
+    },
+    {
+      "name": "MT Bjirlah WASD",
+      "url": "https://rullzsyhub.web.id/json/mount_bjirlah_wasd.json",
+      "locked": false
+    },
+    {
+      "name": "MT Nglunjak",
+      "url": "https://rullzsyhub.web.id/json/mount_ngelunjak.json",
+      "locked": false
+    },
+    {
+      "name": "MT Space X",
+      "url": "https://rullzsyhub.web.id/json/mount_space_x.json",
+      "locked": false
+    },
+    {
+      "name": "MT Yahayuk WASD",
+      "url": "https://rullzsyhub.web.id/json/mount_yahayuk_wasd.json",
+      "locked": false
+    },
+    {
+      "name": "MT Yayakin WASD",
+      "url": "https://rullzsyhub.web.id/json/mount_yayakin_wasd.json",
+      "locked": false
     }
   ]
 }
