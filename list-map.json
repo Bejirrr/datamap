@@ -114,6 +114,16 @@
       "name": "MT Yayakin WASD",
       "url": "https://rullzsyhub.web.id/json/mount_yayakin_wasd.json",
       "locked": false
+    },
+    {
+      "name": "MT Elestrya",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Elystra.json",
+      "locked": true
+    },
+    {
+      "name": "MT Elestrya",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Elystra.json",
+      "locked": false
     }
   ]
 }
