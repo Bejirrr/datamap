@@ -69,6 +69,11 @@
       "name": "MT Outline",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Outline.json",
       "locked": false
+    },
+    {
+      "name": "MT Nautica",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Nautica.json",
+      "locked": false
     }
   ]
 }
