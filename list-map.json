@@ -118,7 +118,7 @@
     {
       "name": "MT Elestrya",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Elystra.json",
-      "locked": true
+      "locked": false
     },
     {
       "name": "MT Elestrya",
