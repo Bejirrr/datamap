@@ -124,6 +124,11 @@
       "name": "Mt Yarr",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Elystraa.json",
       "locked": false
+    },
+    {
+      "name": "MT Pribados HARD",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Pribados.json",
+      "locked": false
     }
   ]
 }
