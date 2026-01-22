@@ -129,6 +129,11 @@
       "name": "MT Pribados HARD",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Pribados.json",
       "locked": false
+    },
+    {
+      "name": "Testing",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/TESTING.json",
+      "locked": false
     }
   ]
 }
