@@ -134,6 +134,11 @@
       "name": "Testing",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/TESTING.json",
       "locked": false
+    },
+    {
+      "name": "MT Greyviel",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Greyveil.json",
+      "locked": false
     }
   ]
 }
