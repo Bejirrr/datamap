@@ -144,6 +144,11 @@
       "name": "MT BOTOL 4",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Botol.json",
       "locked": false
+    },
+    {
+      "name": "MT 1 Day",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount1Day.json",
+      "locked": false
     }
   ]
 }
