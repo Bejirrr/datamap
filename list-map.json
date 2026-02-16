@@ -159,6 +159,11 @@
       "name": "MT Sunny",
       "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Sunny.json",
       "locked": false
+    },
+    {
+      "name": "MT Vespheria",
+      "url": "https://raw.githubusercontent.com/Bejirrr/datamap-json/main/Mount_Vespheria.json",
+      "locked": false
     }
   ]
 }
