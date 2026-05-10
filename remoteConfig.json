@@ -3,9 +3,9 @@
 
     {
       "placeId": 0,
-      "type": "InvokeServer",
-      "path": ["ReplicatedStorage.Shared.Packages._Index.sleitnick_knit@1.7.0.knit.Services.OverheadService.RF.SetDevice"],
-      "RemoteEventName": "SetDevice",
+      "type": "FireServer",
+      "path": ["ReplicatedStorage.ReportDeviceType"],
+      "RemoteEventName": "ReportDeviceType",
       "updateEvent": {
         "path": ["ReplicatedStorage.Shared.Packages._Index.sleitnick_knit@1.7.0.knit.Services.OverheadService.RF.SetDevice"],
         "RemoteEventName": "SetDevice"
