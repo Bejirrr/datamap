@@ -1,37 +1,11 @@
 {
-  "remotes": [
-
-    {
-      "placeId": 0,
-      "type": "FireServer",
-      "path": ["ReplicatedStorage.ReportDeviceType"],
-      "RemoteEventName": "ReportDeviceType",
-      "updateEvent": {
-        "path": ["ReplicatedStorage.ReportDeviceType"],
-        "RemoteEventName": "ReportDeviceType"
-      }
-    },
-
-    {
-      "placeId": 0,
-      "type": "FireServer",
-      "path": ["ReplicatedStorage.ReportDeviceType"],
-      "RemoteEventName": "ReportDeviceType"
-    },
-
-    {
-      "placeId": 0,
-      "type": "FireServer",
-      "path": ["ReplicatedStorage.DeviceInfo"],
-      "RemoteEventName": "ReportDeviceType"
-    },
-
-    {
-      "placeId": 12345678,
-      "type": "FireServer",
-      "path": ["ReplicatedStorage.ReportDeviceType"],
-      "RemoteEventName": "ReportDeviceType"
-    }
-
+  "remotePaths": [
+    "ReplicatedStorage.DeviceInfo.ReportDeviceType",
+    "ReplicatedStorage.ReportDeviceType",
+    "ReplicatedStorage.ReportPlatform",
+    "ReplicatedStorage.SetDeviceType",
+    "ReplicatedStorage.OV_ReportDevice",
+    "ReplicatedStorage.Remotes.RegisterDevice",
+    "ReplicatedStorage.Shared.Packages._Index[\"sleitnick_knit@1.7.0\"].knit.Services.OverheadService.RF.SetDevice"
   ]
 }
