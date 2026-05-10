@@ -1,0 +1,37 @@
+{
+  "remotes": [
+
+    {
+      "placeId": 0,
+      "type": "InvokeServer",
+      "path": ["ReplicatedStorage.Shared.Packages._Index.sleitnick_knit@1.7.0.knit.Services.OverheadService.RF.SetDevice"],
+      "RemoteEventName": "SetDevice",
+      "updateEvent": {
+        "path": ["ReplicatedStorage.Shared.Packages._Index.sleitnick_knit@1.7.0.knit.Services.OverheadService.RF.SetDevice"],
+        "RemoteEventName": "SetDevice"
+      }
+    },
+
+    {
+      "placeId": 0,
+      "type": "FireServer",
+      "path": ["ReplicatedStorage.ReportDeviceType"],
+      "RemoteEventName": "ReportDeviceType"
+    },
+
+    {
+      "placeId": 0,
+      "type": "FireServer",
+      "path": ["ReplicatedStorage.DeviceInfo"],
+      "RemoteEventName": "ReportDeviceType"
+    },
+
+    {
+      "placeId": 12345678,
+      "type": "FireServer",
+      "path": ["ReplicatedStorage.ReportDeviceType"],
+      "RemoteEventName": "ReportDeviceType"
+    }
+
+  ]
+}
