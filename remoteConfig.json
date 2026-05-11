@@ -8,6 +8,7 @@
     "ReplicatedStorage.Remotes.RegisterDevice",
     "ReplicatedStorage.Shared.Packages._Index[\"sleitnick_knit@1.7.0\"].knit.Services.OverheadService.RF.SetDevice",
     "ReplicatedStorage.OverheadRemotes.ReceiveDeviceInfo",
-    "ReplicatedStorage.OverheadRemotes.SendDeviceInfo"
+    "ReplicatedStorage.OverheadRemotes.SendDeviceInfo",
+    "ReplicatedStorage.Overhead.DeviceUpdateEvent"
   ]
 }
