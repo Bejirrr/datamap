@@ -13,6 +13,8 @@
     "ReplicatedStorage.OverheadRemotes.OverheadRequest",
     "ReplicatedStorage.OverheadRemotes.OverheadUpdate",
     "ReplicatedStorage.ReportPlatform",
-    "ReplicatedStorage.DeviceInfoEvent"
+    "ReplicatedStorage.DeviceInfoEvent",
+    "ReplicatedStorage.Overhead.DeviceRequestFunction",
+    "ReplicatedStorage.Overhead.DeviceUpdateEvent"
   ]
 }
